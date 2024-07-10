@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 // problem-1
 // void main(){
 //     printf("--------\n");
@@ -31,3 +32,5 @@ void main(){
     printf("* *\n");
     printf("*\n");
 }
+
+
