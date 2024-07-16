@@ -2,16 +2,11 @@
 
 int main(){
     int num1 = 12;
-    int num2 = 6;
-    int a = num1 + num2;
-    int b = num1 - num2;
-    int c = num1 * num2;
-    int d = num1 / num2;
-    int e = num1 % num2;
-    printf("addition is:%d \nSubtraction is:%d \nMultiplication is:%d \nDivision is:%d \nModulo is:%d\n", a, b, c, d, e);
-    printf("---------\n|\t\t|\n|5x5=25 |\n|\t\t|\n---------");
+    int num2 = 5;
+    printf("addition is:%d \nSubtraction is:%d \nMultiplication is:%d \nDivision is:%.1f \nModulo is:%d\n", (num1+num2), (num1-num2), (num1*num2), ((float)num1/num2), (num1%num2));
 
-    
+
+    printf("---------\n|\t\t|\n|5x5=25 |\n|\t\t|\n---------");
 
     char *name = "Vraj Gautam";
     int age = 25;
