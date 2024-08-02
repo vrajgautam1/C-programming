@@ -183,91 +183,100 @@ int main()
 
     //-12
 
-    for (int j = 5; j >= 1; j--)
-    {
-
-        for (int i = 1; i <= j; i++)
-        {
-            printf("%d ", i);
-        }
-
-        for (int k = 5; k > j; k--)
-        {
-            printf("  ");
-        }
-        for (int k = 5; k > j; k--)
-        {
-            printf("  ");
-        }
-
-        for (int i = j; i >= 1; i--)
-        {
-            printf("%d ", i);
-        }
-        printf("\n");
-    }
-
-    for (int j = 1; j <= 5; j++)
-    {
-        for (int i = 1; i <= j; i++)
-        {
-            printf("%d ", i);
-        }
-        for (int k = 5; k > j; k--)
-        {
-            printf("  ");
-        }
-
-        for (int k = 5; k > j; k--)
-        {
-            printf("  ");
-        }
-
-        for (int i = j; i >= 1; i--)
-        {
-            printf("%d ", i);
-        }
-        printf("\n");
-    }
-
-    //-13
-
-    for (int j = 5; j >= 1; j--)
-    {
-        for (int i = 1; j >= i; i++)
-        {
-            printf("%d ", i);
-        }
-        printf("\n");
-    }
-
-    for (int j = 2; j <= 5; j++)
-    {
-        for (int i = 1; i <= j; i++)
-        {
-            printf("%d ", i);
-        }
-        printf("\n");
-    }
-
-    //-14
-
-    //-15
-
-    // for (int j = 1; j <= 5; j++)
+    // for (int j = 5; j >= 1; j--)
     // {
-    //     for(int k = 5; k >j; k--){
-    //         printf(" ");
-    //     }
+
     //     for (int i = 1; i <= j; i++)
     //     {
-    //         printf("* ");
+    //         printf("%d ", i);
+    //     }
+
+    //     for (int k = 5; k > j; k--)
+    //     {
+    //         printf("  ");
+    //     }
+    //     for (int k = 5; k > j; k--)
+    //     {
+    //         printf("  ");
+    //     }
+
+    //     for (int i = j; i >= 1; i--)
+    //     {
+    //         printf("%d ", i);
     //     }
     //     printf("\n");
     // }
 
+    // for (int j = 1; j <= 5; j++)
+    // {
+    //     for (int i = 1; i <= j; i++)
+    //     {
+    //         printf("%d ", i);
+    //     }
+    //     for (int k = 5; k > j; k--)
+    //     {
+    //         printf("  ");
+    //     }
 
+    //     for (int k = 5; k > j; k--)
+    //     {
+    //         printf("  ");
+    //     }
 
+    //     for (int i = j; i >= 1; i--)
+    //     {
+    //         printf("%d ", i);
+    //     }
+    //     printf("\n");
+    // }
 
+    //-13
 
+    // for (int j = 5; j >= 1; j--)
+    // {
+    //     for (int i = 1; j >= i; i++)
+    //     {
+    //         printf("%d ", i);
+    //     }
+    //     printf("\n");
+    // }
+
+    // for (int j = 2; j <= 5; j++)
+    // {
+    //     for (int i = 1; i <= j; i++)
+    //     {
+    //         printf("%d ", i);
+    //     }
+    //     printf("\n");
+    // }
+
+    //-14
+
+    for (int j = 1; j <= 5; j++)
+    {
+        for (int k = 5; k > j; k--)
+        {
+            printf("  ");
+        }
+        for (int i = 1; i <= 2 * j - 1; i++)
+        {
+            printf("%d ",i);
+        }
+        printf("\n");
+    }
+
+    //-15
+
+    for (int j = 1; j <= 5; j++)
+    {
+        for (int k = 5; k > j; k--)
+        {
+            printf("  ");
+        }
+        for (int i = 1; i <= 2 * j - 1; i++)
+        {
+            printf("* ");
+        }
+        printf("\n");
+    }
 }
