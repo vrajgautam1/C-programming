@@ -5,27 +5,25 @@ int main(){
     FILE *file2 = fopen("odd_file.txt","w");
     
     if(file1==NULL){
-        printf("unable to access file1");
+        printf("unable to access file1\n");
         return 1;
     }else{
-        printf("file open successful");
+        printf("file open successful\n");
     }
 
     if(file2==NULL){
-        printf("unable to access file2");
+        printf("unable to access file2\n");
         return 1;
     }else{
-        printf("file open successful");
+        printf("file open successful\n");
     }
 
     int i;
     for(i = 50; i<=70; i++){
         if(i%2 == 0){
-            fputs(i,file1);
-            fputs(", ",file1);
+            fprintf(file1, "%d ", i);
         }else{
-            fputs(i,file2);
-            fputs(", ",file2);
+            fprintf(file2, "%d ", i);
         }
     }
 
